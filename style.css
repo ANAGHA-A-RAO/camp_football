@@ -4,5 +4,65 @@
 }
 
 body{
-    background: #9013fe;
-    color:white;
+    background: #23b19e;
+    color:black;
+    display:flex;
+    justify-content:center;
+    height:70vh;
+}
+.container{
+    background: white;
+    display:flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width:700px;
+    padding:50px;   
+    margin-top:60px;
+}
+.container > .row{
+ width:100%;
+ justify-content: space-evenly;
+}
+.row{
+    display:flex;
+    
+}
+.col{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.name{
+    margin:20px 0;
+    font-size: x-large;
+    font-weight: 900;
+
+}
+.profile-icon{
+    border-radius: 50%;
+    border:#e41022 solid 2px;
+    
+}
+.score{
+    font-size:xx-large;    
+}
+.score > span{
+    margin:0 5px;
+}
+.team-score{
+    font-size:xx-large;
+    width:200px;
+    justify-content:space-evenly;
+}
+#strike{
+    border:none;
+    border-radius:25px;
+    width:300px;
+    font-size: large;
+    background: linear-gradient(136deg, red, yellow);
+    margin-top:50px;
+    margin-bottom: -50px;
+    padding:10px;
+
+}
